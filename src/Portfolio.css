@@ -1,0 +1,16 @@
+.portfolio__category {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cards {
+  text-align: -webkit-center;
+  padding: 40px;
+}
+
+.card {
+  max-width: 345px;
+}
+
+.card_media {
+}
