@@ -9,15 +9,21 @@ import Slide from "@material-ui/core/Slide";
 import Fab from "@material-ui/core/Fab";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import Zoom from "@material-ui/core/Zoom";
-import FormGroup from "@material-ui/core/FormGroup";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import Switch from "@material-ui/core/Switch";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+{
+  /*import FormGroup from "@material-ui/core/FormGroup";*/
+}
+{
+  /*import FormControlLabel from "@material-ui/core/FormControlLabel";*/
+}
+{
+  /*import Switch from "@material-ui/core/Switch";*/
+}
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -68,18 +74,24 @@ function ScrollTop(props) {
 export default function Nav(props) {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
-  const [state, setState] = React.useState({
+  {
+    /*const [state, setState] = React.useState({
     checkedA: false,
     checkedB: false,
-  });
+  });*/
+  }
 
-  const handleLanguage = (event) => {
+  {
+    /*const handleLanguage = (event) => {
     setState({ ...state, [event.target.name]: event.target.checked });
-  };
+  };*/
+  }
 
-  const handleDarkmode = (event) => {
+  {
+    /*const handleDarkmode = (event) => {
     setState({ ...state, [event.target.name]: event.target.checked });
-  };
+  };*/
+  }
 
   const handleMenuClick = (event) => {
     setAnchorEl(event.currentTarget);

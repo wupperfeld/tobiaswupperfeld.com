@@ -1,9 +1,10 @@
 .intro {
-  padding: 10% 10% 10% 10%;
+  padding: 10% 0 10% 0;
+  align-items: center;
 }
 
 .intro__textbutton > h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -18,23 +19,28 @@
 }
 
 .intro__image > img {
-  width: 350px;
+  max-width: 400px;
 }
 
 .about {
-  padding: 10% 20% 10% 20%;
-  background-color: #0f4c75;
+  padding: 10% 0 10% 0;
   align-items: center;
   text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
 }
 
 .about__image {
   width: 250px;
+  transition: width 0.5s;
 }
 
-.about__textbutton {
+.about__image:hover {
+  width: 270px;
+}
+
+.about__textbox {
   color: #1b262c;
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
   line-height: 25px;
   background-color: #fff;
@@ -42,59 +48,116 @@
   padding: 5%;
 }
 
-.about__textbutton--link {
+.about__textbox--btn {
+  margin-top: 20px;
+}
+
+.about__textbox--link {
   text-decoration: none;
   color: #1b262c;
 }
 
 .process {
-  padding: 5% 20% 10% 20%;
+  padding: 5% 0 10% 0;
 }
 
 .process__title {
   text-align: center;
-  font-size: 30px;
-  margin-bottom: 15%;
+  font-size: 45px;
+  margin: 5% 0 5% 0;
 }
 
 .process__box {
   margin-bottom: 3%;
-  font-size: 16px;
   line-height: 25px;
   text-align: center;
 }
 
 .process__box--img {
-  width: 200px;
+  width: 500px;
+  transition: width 0.5s;
+}
+
+.process__box--img:hover {
+  width: 550px;
+}
+
+.process__box--text > h4 {
+  font-size: 30px;
+  color: #0f4c75;
 }
 
 .process__box--text {
   padding: 5%;
   text-align: left;
+  font-size: 20px;
 }
 
 .techstack {
   text-align: -webkit-center;
-  padding: 5% 10%;
-  background-color: #0f4c75;
+  padding: 5% 0 5% 0;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 .techstack > h3 {
+  text-align: center;
+  font-size: 45px;
+  margin: 5% 0 5% 0;
+}
+
+.techstack__box {
+  min-height: 500px;
+  padding: 5%;
+  text-align: left;
+  background-color: #bbe1fa;
+}
+
+.techstack__box > h4 {
   font-size: 30px;
+  color: #0f4c75;
   margin-bottom: 5%;
-  color: #fff;
+}
+
+.techstack__box > p {
+  font-size: 20px;
 }
 
 .cta {
-  text-align: left;
-  padding: 5% 20% 5% 20%;
+  padding: 5% 0 5% 0;
+  background-color: #0f4c75;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 10% 0 10% 0;
+  text-align: center;
+  align-items: center;
 }
 
 .cta__text {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 3%;
+  color: #fff;
+  text-align: left;
+}
+
+.cta__button {
+  text-align: left;
 }
 
 .cta__img {
-  width: 300px;
+  max-width: 500px;
+}
+
+@media (max-width: 1150px) {
+  .process__box--img {
+    width: 350px;
+    transition: width 0.5s;
+  }
+
+  .process__box--img:hover {
+    width: 400px;
+  }
+
+  .techstack > h3 {
+    font-size: 35px;
+  }
 }
