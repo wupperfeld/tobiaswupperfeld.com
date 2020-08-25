@@ -148,16 +148,23 @@
 }
 
 @media (max-width: 1150px) {
+  .intro__textbutton > h1 {
+    font-size: 40px;
+  }
+
+  .intro__image > img {
+    max-width: 300px;
+  }
+
   .process__box--img {
     width: 350px;
-    transition: width 0.5s;
   }
 
   .process__box--img:hover {
-    width: 400px;
+    width: 350px;
   }
 
   .techstack > h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
