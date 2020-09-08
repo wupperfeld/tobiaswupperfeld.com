@@ -9,6 +9,12 @@
   color: #fff !important;
 }
 
+.footer__icon--xing {
+  color: #fff;
+  font-size: 19px;
+  vertical-align: sub;
+}
+
 .footer__copyright {
   color: #fff;
 }

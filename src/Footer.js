@@ -19,6 +19,12 @@ const Footer = () => (
             >
               <EmailIcon />
             </IconButton>
+            <a
+              href="https://www.xing.com/profile/Tobias_Wupperfeld/cv"
+              className="footer__icon--xing"
+            >
+              <i class="fab fa-xing"></i>
+            </a>
             <IconButton
               href="https://www.linkedin.com/in/tobias-wupperfeld/"
               className="footer__icon"
