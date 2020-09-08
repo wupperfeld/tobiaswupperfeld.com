@@ -75,11 +75,6 @@
 
 .process__box--img {
   width: 500px;
-  transition: width 0.5s;
-}
-
-.process__box--img:hover {
-  width: 550px;
 }
 
 .process__box--text > h4 {
