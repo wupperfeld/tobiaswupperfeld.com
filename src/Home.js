@@ -89,17 +89,14 @@ const Home = () => (
         <h3 className="process__title">Der Weg zu Ihrer Lösung</h3>
 
         <div className="process__box">
-          <Grid container spacing={3} alignItems="center">
-            <Grid item xs={12} md={6}>
-              <img
+                    
+              <div>
+                <Paper>
+                <img
                 className="process__box--img"
                 src="../images/mind_map.svg"
                 alt="mindmap"
               />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <div data-aos="fade-left" data-aos-duration="2000">
-                <Paper>
                   <p className="process__box--text">
                     <h4>Anforderungsanalyse</h4>
                     <br />
@@ -108,15 +105,14 @@ const Home = () => (
                   </p>
                 </Paper>
               </div>
-            </Grid>
-          </Grid>
-        </div>
-
-        <div className="process__box">
-          <Grid container spacing={3} alignItems="center">
-            <Grid item xs={12} md={6}>
-              <div data-aos="fade-right" data-aos-duration="2000">
+         
+              <div>
                 <Paper>
+                <img
+                className="process__box--img"
+                src="../images/wireframe.svg"
+                alt="wireframing"
+              />
                   <p className="process__box--text">
                     <h4>UI / UX Design Wireframing</h4>
                     <br />
@@ -127,28 +123,14 @@ const Home = () => (
                   </p>
                 </Paper>
               </div>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <img
-                className="process__box--img"
-                src="../images/wireframe.svg"
-                alt="wireframing"
-              />
-            </Grid>
-          </Grid>
-        </div>
-        <div className="process__box">
-          <Grid container spacing={3} alignItems="center">
-            <Grid item xs={12} md={6}>
-              <img
+            
+              <div>
+                <Paper>
+                <img
                 className="process__box--img"
                 src="../images/coding_.svg"
                 alt="coding"
               />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <div data-aos="fade-left" data-aos-duration="2000">
-                <Paper>
                   <p className="process__box--text">
                     <h4>Agile Entwicklung</h4>
                     <br />
@@ -160,14 +142,14 @@ const Home = () => (
                   </p>
                 </Paper>
               </div>
-            </Grid>
-          </Grid>
-        </div>
-        <div className="process__box">
-          <Grid container spacing={3} alignItems="center">
-            <Grid item xs={12} md={6}>
-              <div data-aos="fade-right" data-aos-duration="2000">
+           
+              <div>
                 <Paper>
+                <img
+                className="process__box--img"
+                src="../images/data_maintenance.svg"
+                alt="testen und optimieren"
+              />
                   <p className="process__box--text">
                     <h4>Testen und Optimieren</h4>
                     <br />
@@ -177,28 +159,14 @@ const Home = () => (
                   </p>
                 </Paper>
               </div>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <img
-                className="process__box--img"
-                src="../images/data_maintenance.svg"
-                alt="testen und optimieren"
-              />
-            </Grid>
-          </Grid>
-        </div>
-        <div className="process__box">
-          <Grid container spacing={3} alignItems="center">
-            <Grid item xs={12} md={6}>
-              <img
+            
+              <div>
+                <Paper>
+                <img
                 className="process__box--img"
                 src="../images/startup.svg"
                 alt="launch"
               />
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <div data-aos="fade-left" data-aos-duration="2000">
-                <Paper>
                   <p className="process__box--text">
                     <h4>Inbetriebnahme</h4>
                     <br />
@@ -206,8 +174,7 @@ const Home = () => (
                   </p>
                 </Paper>
               </div>
-            </Grid>
-          </Grid>
+
         </div>
       </div>
 
