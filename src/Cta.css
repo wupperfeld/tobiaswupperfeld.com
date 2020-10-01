@@ -1,0 +1,29 @@
+.cta {
+  padding: 5% 0 5% 0;
+  background-color: #0f4c75;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 10% 0 10% 0;
+  text-align: center;
+  align-items: center;
+}
+
+.cta__text {
+  text-align: left;
+  font-size: 40px;
+  color: white;
+}
+
+.cta__img {
+  max-width: 500px;
+}
+
+.footer__icon {
+  color: #fff !important;
+}
+
+.footer__icon--xing {
+  color: #fff;
+  font-size: 19px;
+  vertical-align: middle;
+}

@@ -1,34 +1,20 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Nav from "./Nav";
-import Home from "./Home";
+import About from "./About";
 import Footer from "./Footer";
 import Portfolio from "./Portfolio";
-import About from "./About";
+import Cta from "./Cta";
+import { Container } from "@material-ui/core";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Switch>
-          <Route path="/about">
-            <Nav />
-            <About />
-            <Footer />
-          </Route>
-          <Route path="/portfolio">
-            <Nav />
-            <Portfolio />
-            <Footer />
-          </Route>
-          <Route path="/">
-            <Nav />
-            <Home />
-            <Footer />
-          </Route>
-        </Switch>
-      </Router>
+      <About />
+      <Container maxWidth="lg">
+        <Portfolio />
+        <Cta />
+      </Container>
+      <Footer />
     </div>
   );
 }
