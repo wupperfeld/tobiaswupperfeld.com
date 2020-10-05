@@ -31,7 +31,7 @@ const Portfolio = () => (
       >
         <Grid item xs={12} sm={6} md={4}>
           <Card className="card">
-            <CardActionArea href="#">
+            <CardActionArea href="###">
               <CardMedia
                 className="card__media"
                 component="img"
@@ -53,8 +53,38 @@ const Portfolio = () => (
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary" href="#">
+              <Button size="small" color="primary" href="###">
                 Zur FLA Software
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={4}>
+          <Card className="card">
+            <CardActionArea href="###">
+              <CardMedia
+                className="card__media"
+                component="img"
+                alt="timetrackr Zeiterfassung App"
+                image="../images/timetrackr-banner.jpg"
+                title="Zeiterfassung App"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Zeiterfassung App
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  timetrackr ist eine Zeiterfassung App für Unternehmen.
+                  Unternehmen können damit auf simple Weise Arbeitspakete
+                  anlegen und die Arbeitszeiten ihrer Mitarbeiter nachverfolgen.
+                  Ideal für kleine und mittelständige Firmen sowie Startups.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary" href="###">
+                Zur timetrackr App
               </Button>
             </CardActions>
           </Card>
@@ -77,6 +107,45 @@ const Portfolio = () => (
           justify="center"
           alignItems="center"
         >
+          <Grid item xs={12} sm={6} md={4}>
+            <Card className="card">
+              <CardActionArea href="###">
+                <CardMedia
+                  className="card__media"
+                  component="img"
+                  alt="facebook klon"
+                  image="../images/amazon-clone.jpg"
+                  title="Ein Facebook Klon"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Ein Facebook Klon
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color="textSecondary"
+                    component="p"
+                  >
+                    Frontend: TypeScript, React.js, Redux
+                    <br />
+                    Backend: Node.js, Express.js, MongoDB
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary" href="###">
+                  Vorschau anzeigen
+                </Button>
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://github.com/wupperfeld/facebook-clone"
+                >
+                  Code anzeigen
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Card className="card">
               <CardActionArea href="https://clone-c0821.web.app/">
