@@ -114,7 +114,7 @@ const Portfolio = () => (
                   className="card__media"
                   component="img"
                   alt="facebook klon"
-                  image="../images/amazon-clone.jpg"
+                  image="../images/fb-mern.jpg"
                   title="Ein Facebook Klon"
                 />
                 <CardContent>
@@ -139,7 +139,7 @@ const Portfolio = () => (
                 <Button
                   size="small"
                   color="primary"
-                  href="https://github.com/wupperfeld/facebook-clone"
+                  href="https://github.com/wupperfeld/fb-mern-clone"
                 >
                   Code anzeigen
                 </Button>
@@ -154,11 +154,11 @@ const Portfolio = () => (
                   component="img"
                   alt="amazon clone"
                   image="../images/amazon-clone.jpg"
-                  title="An Amazon Clone"
+                  title="Ein Amazon Klon"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    An Amazon Clone
+                    Ein Amazon Klon
                   </Typography>
                   <Typography
                     variant="body2"
@@ -197,11 +197,11 @@ const Portfolio = () => (
                   component="img"
                   alt="messenger app"
                   image="../images/messenger.png"
-                  title="A Messenger App"
+                  title="Eine Messenger App"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    A Messenger App
+                    Eine Messenger App
                   </Typography>
                   <Typography
                     variant="body2"
@@ -240,11 +240,11 @@ const Portfolio = () => (
                   component="img"
                   alt="netflix clone"
                   image="../images/netflix-clone.jpg"
-                  title="A Netflix Clone"
+                  title="Ein Netflix Klon"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    A Netflix Clone
+                    Ein Netflix Klon
                   </Typography>
                   <Typography
                     variant="body2"
@@ -269,135 +269,6 @@ const Portfolio = () => (
                   size="small"
                   color="primary"
                   href="https://github.com/wupperfeld/netflix-clone"
-                >
-                  Code anzeigen
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Card className="card">
-              <CardActionArea href="https://wupperfeld.github.io/keeperapp/">
-                <CardMedia
-                  className="card__media"
-                  component="img"
-                  alt="keeper app"
-                  image="../images/keeper.png"
-                  title="The Keeper App"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    The Keeper App
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="textSecondary"
-                    component="p"
-                  >
-                    Frontend: React.js, Material-UI
-                    <br />
-                    Backend: Node.js, Express.js
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-                <Button
-                  size="small"
-                  color="primary"
-                  href="https://wupperfeld.github.io/keeperapp/"
-                >
-                  Vorschau anzeigen
-                </Button>
-                <Button
-                  size="small"
-                  color="primary"
-                  href="https://github.com/wupperfeld/keeperapp"
-                >
-                  Code anzeigen
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Card className="card">
-              <CardActionArea href="https://limitless-forest-94024.herokuapp.com/">
-                <CardMedia
-                  className="card__media"
-                  component="img"
-                  alt="secrets app"
-                  image="../images/secrets.png"
-                  title="The Secrets App"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    The Secrets App
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="textSecondary"
-                    component="p"
-                  >
-                    Frontend: Vanilla JS, Bootstrap
-                    <br />
-                    Backend: Node.js, Express.js, MongoDB
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-                <Button
-                  size="small"
-                  color="primary"
-                  href="https://limitless-forest-94024.herokuapp.com/"
-                >
-                  Vorschau anzeigen
-                </Button>
-                <Button
-                  size="small"
-                  color="primary"
-                  href="https://github.com/wupperfeld/secretsapp"
-                >
-                  Code anzeigen
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-
-          <Grid item xs={12} sm={6} md={4}>
-            <Card className="card">
-              <CardActionArea href="https://fierce-taiga-54225.herokuapp.com/">
-                <CardMedia
-                  component="img"
-                  alt="todo list"
-                  image="../images/todolist.png"
-                  title="A To-Do List"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    A To-Do List
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="textSecondary"
-                    component="p"
-                  >
-                    Frontend: Vanilla JS
-                    <br />
-                    Backend: Node.js, Express.js, MongoDB
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-                <Button
-                  size="small"
-                  color="primary"
-                  href="https://fierce-taiga-54225.herokuapp.com/"
-                >
-                  Vorschau anzeigen
-                </Button>
-                <Button
-                  size="small"
-                  color="primary"
-                  href="https://github.com/wupperfeld/todolist"
                 >
                   Code anzeigen
                 </Button>
