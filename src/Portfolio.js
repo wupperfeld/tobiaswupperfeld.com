@@ -13,7 +13,10 @@ import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import Container from "@material-ui/core/Container";
 
 const Portfolio = () => (
-  <div>
+  <div className="portfolio">
+    <h2>Projekte</h2>
+    <h3>Hier ist eine Auswahl an Projekten, an denen ich gearbeitet habe.</h3>
+
     <Container maxWidth="lg">
       <div className="portfolio__category">
         <Chip
@@ -109,7 +112,7 @@ const Portfolio = () => (
         >
           <Grid item xs={12} sm={6} md={4}>
             <Card className="card">
-              <CardActionArea href="###">
+              <CardActionArea href="https://fb-mern-clone.firebaseapp.com/">
                 <CardMedia
                   className="card__media"
                   component="img"
@@ -133,7 +136,11 @@ const Portfolio = () => (
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary" href="###">
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://fb-mern-clone.firebaseapp.com/"
+                >
                   Vorschau anzeigen
                 </Button>
                 <Button

@@ -5,11 +5,15 @@ import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 import Cta from "./Cta";
 import { Container } from "@material-ui/core";
+import Skillset from "./Skillset";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <About />
+      <div className="app__skillset">
+        <Skillset />
+      </div>
       <Container maxWidth="lg">
         <Portfolio />
         <Cta />
