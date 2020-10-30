@@ -16,11 +16,14 @@ const Footer = () => (
           <div className="footer__links">
             <a
               href="https://wupperfeld.org/impressum"
+              rel="nofollow"
               className="footer__links--imprint"
             >
               Impressum
             </a>
-            <a href="https://wupperfeld.org/datenschutz">Datenschutz</a>
+            <a href="https://wupperfeld.org/datenschutz" rel="nofollow">
+              Datenschutz
+            </a>
           </div>
         </Grid>
       </Grid>
