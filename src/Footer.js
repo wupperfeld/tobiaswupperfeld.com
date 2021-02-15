@@ -19,10 +19,10 @@ const Footer = () => (
               rel="nofollow"
               className="footer__links--imprint"
             >
-              Impressum
+              Imprint
             </a>
             <a href="https://wupperfeld.org/datenschutz" rel="nofollow">
-              Datenschutz
+              Data Privacy
             </a>
           </div>
         </Grid>

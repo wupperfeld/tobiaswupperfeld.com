@@ -1,5 +1,5 @@
 import React from "react";
-import { Paper, Container } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import "./About.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,7 +17,7 @@ function About() {
               alt="Tobias Wupperfeld Portrait"
             />
           </div>
-          <p className="about__text">Hallo, mein Name ist Tobias Wupperfeld.</p>
+          <p className="about__text">Hello, my name is Tobias Wupperfeld.</p>
 
           <p
             className="about__text2"
@@ -25,12 +25,7 @@ function About() {
             data-aos-duration="3000"
             data-aos-offset="300"
           >
-            Ich bin ein Querdenker, von dem Sie außergewöhnliche Lösungsansätze
-            erwarten können. In meinem bisherigen Werdegang habe ich Einblicke
-            in verschiedene Branchen erhalten und mich in komplexe technische
-            Themen eingearbeitet. Daher bin ich heute nicht nur ein
-            Softwareentwickler und Ingenieur, sondern eine interdisziplinär
-            aufgestellte Person, die ein Projekt als Ganzes sieht.
+            I'm a Software Engineer.
           </p>
 
           <img
@@ -38,7 +33,7 @@ function About() {
             src="../images/initials-white.png"
             alt="Tobias Wupperfeld Logo"
             data-aos="fade-up"
-            data-aos-offset="400"
+            data-aos-offset="600"
           />
         </div>
       </Container>

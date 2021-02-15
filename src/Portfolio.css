@@ -11,6 +11,13 @@
   margin-top: 5vh;
 }
 
+.portfolio > p {
+  text-align: center;
+  color: #0f4c75;
+  margin-top: 5vh;
+  font-size: 20px;
+}
+
 .portfolio__category {
   margin-top: 50px;
   text-align: center;

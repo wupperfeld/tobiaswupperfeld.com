@@ -4,7 +4,7 @@ import "./Skillset.css";
 function Skillset() {
   return (
     <div className="skillset">
-      <h2>Mein Skillset</h2>
+      <h2>My Skillset</h2>
       <div className="skillset__boxes">
         <div className="skillset__box">
           <i class="fas fa-desktop"></i>
@@ -12,34 +12,23 @@ function Skillset() {
           <h3>Front-end</h3>
           <p>JavaScript</p>
           <p>TypeScript</p>
-          <p>HTML5</p>
-          <p>CSS3</p>
-          <p>ReactJS / Redux</p>
-          <p>React Native</p>
-          <p>Bootstrap / Material-UI / Tailwind CSS</p>
+          <p>ReactJS</p>
         </div>
         <div className="skillset__box">
           <i class="fas fa-server"></i>
           <i class="fas fa-database"></i>
           <h3>Back-end</h3>
           <p>NodeJS</p>
-          <p>Express</p>
-          <p>MongoDB</p>
-          <p>SQL</p>
-          <p>REST API</p>
           <p>Python</p>
-          <p>GCP</p>
+          <p>Java Spring</p>
         </div>
         <div className="skillset__box">
           <i class="fab fa-dev"></i>
           <i class="fas fa-tools"></i>
-          <h3>DevOps / Tools</h3>
-          <p>Git / Github</p>
-          <p>Jira</p>
-          <p>Jest / React Testing Library</p>
+          <h3>CI / CD</h3>
+          <p>Github</p>
+          <p>Jest</p>
           <p>VS Code</p>
-          <p>Postman</p>
-          <p>Figma</p>
         </div>
       </div>
     </div>
